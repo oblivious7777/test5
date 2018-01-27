@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="t10.classic_act" template="/WEB-INF/view/xz/classic_10.jsp">
+        <put-attribute name="title" value="修真院t10页面"/>
+        <put-attribute name="header" value="/WEB-INF/view/xz/header_10.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/view/xz/footer_10.jsp"/>
+    </definition>
+    <definition name="t11.classic_act" template="/WEB-INF/view/xz/classic_11.jsp">
+        <put-attribute name="title" value="修真院t11页面"/>
+        <put-attribute name="header" value="/WEB-INF/view/xz/header_11.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/view/xz/footer_11.jsp"/>
+    </definition>
+
+
+</tiles-definitions>
